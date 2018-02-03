@@ -7,10 +7,16 @@ public class Main {
 
         AnimalDomestico g;
         AnimalDomestico p;
+
+        Veterinario vet;
         g = new Gato("Tom", "Negro");
-        g.saludar();
         p = new Perro("Frank", "Cafe", "Pug");
-        p.saludar();
+        vet = new Veterinario(g);
+        vet.curar();
+
+      //  g.saludar();
+
+        //p.saludar();
     }
 }
 

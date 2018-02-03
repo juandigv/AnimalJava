@@ -11,7 +11,7 @@ public class Perro extends AnimalDomestico {
     }
 
     public void saludar() {
-        System.out.println("El Perro " + this.nombre + " de color " + this.color + " y de raza "+ this.raza+ " Os saluda .... GUAU GUAU ");
+        System.out.println("GUAU GUAU ");
 
     }
 }
