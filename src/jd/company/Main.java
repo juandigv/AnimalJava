@@ -5,8 +5,8 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Gato g;
-        Perro p;
+        AnimalDomestico g;
+        AnimalDomestico p;
         g = new Gato("Tom", "Negro");
         g.saludar();
         p = new Perro("Frank", "Cafe", "Pug");
