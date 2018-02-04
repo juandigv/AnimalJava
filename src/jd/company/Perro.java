@@ -11,7 +11,7 @@ public class Perro extends AnimalDomestico {
     }
 
     public void saludar() {
-        System.out.println("GUAU GUAU ");
+        System.out.println("   GUAU GUAU ");
 
     }
 }
