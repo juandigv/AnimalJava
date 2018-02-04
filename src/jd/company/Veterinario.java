@@ -10,13 +10,13 @@ public class Veterinario {
 
     public void curar() {
         if (this.animal instanceof Gato)
-            System.out.println("VETERINARIO>> Estoy curando al Gato" + animal.nombre);
+            System.out.println("VETERINARIO>> Estoy curando al Gato " + animal.nombre);
         else if (this.animal instanceof Perro)
-            System.out.println("VETERINARIO>> Estoy curando al Perro"+ animal.nombre);
+            System.out.println("VETERINARIO>> Estoy curando al Perro "+ animal.nombre);
         else if (this.animal instanceof Rana)
-            System.out.println("VETERINARIO>> Estoy curando a la Rana"+ animal.nombre);
+            System.out.println("VETERINARIO>> Estoy curando a la Rana "+ animal.nombre);
         else
-            System.out.println("VETERINARIO>> Estoy curando al Conejo"+ animal.nombre);
+            System.out.println("VETERINARIO>> Estoy curando al Conejo "+ animal.nombre);
 
         this.animal.saludar();
 
